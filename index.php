@@ -2,7 +2,7 @@
 
 $d = dir(getcwd());
 
-echo "Handle: " . $d->handle . "<br>";
+echo "Handssle: " . $d->handle . "<br>";
 echo "Path: " . $d->path . "<br>";
 
 while (($file = $d->read()) !== false){ 
